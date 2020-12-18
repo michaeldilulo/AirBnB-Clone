@@ -3,3 +3,17 @@
   height: 100px;
   margin-left: 20px;
 }
+
+.header {
+  display: flex;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
