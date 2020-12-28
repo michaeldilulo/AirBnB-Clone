@@ -15,12 +15,12 @@ function App() {
         
         <Switch>
       
-          <Route path="/">
-          <Home />
-          </Route>
-
           <Route path="/search">
           <SearchPage />
+          </Route>
+
+          <Route path="/">
+          <Home />
           </Route>
 
         </Switch>
