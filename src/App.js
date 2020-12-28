@@ -12,11 +12,6 @@ function App() {
       <Home />
       
       <Footer />
-      {/* Banner / */}
-
-      {/* Cards */}
-    
-      {/* Footer / */}
       
       {/* Search Page / */}
     </div>
