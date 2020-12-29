@@ -16,7 +16,9 @@ function SearchPage() {
                 <Button variant="outlined">Rooms and beds</Button>
                 <Button variant="outlined">More filters</Button>
             </div>
-            <SearchResult />
+            <SearchResult img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
+                location="Private room in center of London" title="Stay at this spacious Edwardian House" description=" 1 guess - 1 bedroom - 1 bath - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+            star={4.75} price="$40 / night" total="$120 total"/>
         </div>
     )
 }
