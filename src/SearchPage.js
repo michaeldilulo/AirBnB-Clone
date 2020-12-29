@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SearchPage.css"
-import {Button} from "@material-ui/core"
+import { Button } from "@material-ui/core"
+import SearchResult from "./SearchResult"
 
 function SearchPage() {
     return (
@@ -15,6 +16,7 @@ function SearchPage() {
                 <Button variant="outlined">Rooms and beds</Button>
                 <Button variant="outlined">More filters</Button>
             </div>
+            <SearchResult />
         </div>
     )
 }
