@@ -17,3 +17,10 @@
   border-radius: 10px;
   overflow: hidden;
 }
+
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
