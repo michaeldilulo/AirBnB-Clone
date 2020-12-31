@@ -5,7 +5,6 @@ import Search from "./Search"
 import {useHistory} from "react-router-dom"
 
 function Banner() {
-    // Browser keeps track of the history, pushes results
     const history = useHistory();
     const [showSearch, setShowSearch] = useState(false)
 
